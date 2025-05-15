@@ -10,11 +10,11 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 
 One of the things I should have discussed in the tutorial video is that GridMap co-ordinate system is not the same as the world space.
 
-You need to covert GridMap locations to world space with:
+You need to convert GridMap locations to world space with:
 
 `grid_map.map_to_local(map_position: Vector3i) -> Vector3`
 
-And coverting world locations to GridMap locations with:
+to convert world locations to GridMap locations with:
 
 `grid_map.local_to_map(local_position: Vector3) -> Vector3i`
 
