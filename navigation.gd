@@ -49,11 +49,12 @@ func find_path(start: Vector3i, end: Vector3i) -> Array:
 	return path
 
 # This method needs the Debug Draw 3D plugin from the AssetLib
-func do_debug_path(grid_map_in: GridMap, grid_map_cell_size: int, current_pos, target_pos):
-	var path = find_path(current_pos, target_pos)
-	DebugDraw2D.set_text("Grid count: ", astar.get_point_count())
-	DebugDraw2D.set_text("Path length: ", path.size())  # if you get -1 then no path found
-	
+func do_debug_path(grid_map_in: GridMap, grid_map_cell_size: int, start_pos, target_pos):
+	var path = find_path(start_pos, target_pos)
+	DebugDraw2D.set_text("1. Grid count: ", astar.get_point_count())
+	DebugDraw2D.set_text("2. Path length: ", path.size())  # if you get -1 then no path found
+	DebugDraw2D.set_text("3. Start Grid Location / Start World Location: ", str(start_pos, " / ", grid_map_in.map_to_local(start_pos)))
+	DebugDraw2D.set_text("4. End Grid Location / End World Location: ", str(target_pos, " / ", grid_map_in.map_to_local(target_pos)))
 	var i: int = 0
 	points.resize(path.size())
 	
