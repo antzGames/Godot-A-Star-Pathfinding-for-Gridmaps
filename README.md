@@ -4,7 +4,7 @@ Easy A* pathfinding template and tutorial for Godot's GridMaps.
 
 The video tutorial can be viewed on YouTube here: https://youtu.be/t4-R5tmFakw
 
-Note: This solution is great for 3D Dungeon Crawler games where you need to move in discrete  amounts in a grid pattern.
+This solution is great for 3D Dungeon Crawler games where you need to do pathfinding in discrete amounts in a grid pattern.
 
 ## GridMap location to world space and vice versa
 
