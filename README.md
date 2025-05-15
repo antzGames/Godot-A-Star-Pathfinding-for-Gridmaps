@@ -18,6 +18,8 @@ And coverting world locations to GridMap locations with:
 
 `grid_map.local_to_map(local_position: Vector3) -> Vector3i`
 
+See https://docs.godotengine.org/en/stable/classes/class_gridmap.html for more information.
+
 ## Game Jam Example
 
  I used this solution in my Dungeon Crawler Game Jam 2025 entry: https://antzgames.itch.io/dungeon-heist
