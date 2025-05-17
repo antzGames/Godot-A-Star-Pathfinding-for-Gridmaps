@@ -26,5 +26,5 @@ See https://docs.godotengine.org/en/stable/classes/class_gridmap.html for more i
 
  I used this solution in my Dungeon Crawler Game Jam 2025 entry: https://antzgames.itch.io/dungeon-heist
 
-
+<img src="https://github.com/user-attachments/assets/36c83fca-f273-4075-83b7-1864502daaf2" idth="630" height="500">
 
