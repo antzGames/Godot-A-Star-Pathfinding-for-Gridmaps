@@ -1,5 +1,7 @@
 ## Godot A* Pathfinding for Gridmaps - Template and Tutorial
 
+![AStar for Gridmaps](https://github.com/user-attachments/assets/2cba055a-ff00-4fe5-854b-71864ca1188e)
+
 Easy A* pathfinding template and tutorial for Godot's GridMaps.
 
 The video tutorial can be viewed on YouTube here: https://youtu.be/t4-R5tmFakw
