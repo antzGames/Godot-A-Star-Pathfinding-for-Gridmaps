@@ -8,13 +8,34 @@ Now implemented as a plugin.
 
 This solution is great for 3D Dungeon Crawler games where you need to do pathfinding in discrete amounts in a grid pattern.
 
+## How to install as a plugin
+
 ![plugin](https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3)
-![is_in](https://github.com/user-attachments/assets/9bf1be71-7188-40f1-afae-2ff6da5dea19)
-![editor_debug](https://github.com/user-attachments/assets/178e1b13-6d5f-4aae-89d3-c5fc1e794f22)
-![no_selected](https://github.com/user-attachments/assets/ad212ab6-8c02-45be-b08c-890fd9a33ad1)
+
+Add `grid_map_pathfinding` folder to your `addons` directory.
+
+## Plugin's inspector changes and new custom dock
+
 ![New_inspect](https://github.com/user-attachments/assets/f0e5eac8-e7bf-44b5-9280-df13faa6b7b5)
 ![all_inspect](https://github.com/user-attachments/assets/4dd871a6-7210-4539-8bd8-af5797875c31)
+
+## Optional in editor pathfinding debug
+
+![editor_debug](https://github.com/user-attachments/assets/178e1b13-6d5f-4aae-89d3-c5fc1e794f22)
+
+## Custom dock
+
+When the selected cell in the grid map is **NOT** in the walkable_items array, which is going to be the case in a new project, you will see this in the dock:
+
 ![not_in](https://github.com/user-attachments/assets/9fe8d90c-8c7c-4bbf-9b83-57fcb42e4793)
+
+When the selected cell in the grid map is in the walkable_items array, you will see this:
+
+![is_in](https://github.com/user-attachments/assets/9bf1be71-7188-40f1-afae-2ff6da5dea19)
+
+When the selected cell does not have any assigned tile, then you will see this:
+
+![no_selected](https://github.com/user-attachments/assets/ad212ab6-8c02-45be-b08c-890fd9a33ad1)
 
 
 
