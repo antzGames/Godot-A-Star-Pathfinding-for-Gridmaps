@@ -1,11 +1,12 @@
 ## Godot A* Pathfinding for Gridmaps Plugin
 
-![fullscreen](https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59)
+<img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59" width="960" height="540">
 
-Easy A* pathfinding template and tutorial for Godot's GridMaps.
+An extended version of Godot's GridMap node that adds A* Pathfinding and in editor debugging.
+
+Now implemented as a plugin.
 
 This solution is great for 3D Dungeon Crawler games where you need to do pathfinding in discrete amounts in a grid pattern.
-
 
 ![plugin](https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3)
 ![is_in](https://github.com/user-attachments/assets/9bf1be71-7188-40f1-afae-2ff6da5dea19)
