@@ -1,6 +1,6 @@
 ## Godot A* Pathfinding for Gridmaps Plugin
 
-<img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59">
+<img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59" width="580" height="270">
 
 An extended version of Godot's GridMap node that adds A* Pathfinding and in editor debugging.
 
@@ -12,11 +12,11 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 
 Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
 
-![plugin](https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3)
+<img src="https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3" width="182" height="181">
 
 ## Using the new `GridMapPathFinding` node
 
-![new_node](https://github.com/user-attachments/assets/49a4f814-c12c-4a75-8be5-d0e9168470f0)
+<img src="https://github.com/user-attachments/assets/49a4f814-c12c-4a75-8be5-d0e9168470f0" width="407" height="247">
 
 ## Plugin's inspector changes
 
