@@ -1,6 +1,6 @@
 ## Godot A* Pathfinding for Gridmaps Plugin
 
-<img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59" width="960" height="540">
+<img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59">
 
 An extended version of Godot's GridMap node that adds A* Pathfinding and in editor debugging.
 
