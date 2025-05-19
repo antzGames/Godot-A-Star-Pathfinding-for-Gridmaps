@@ -10,8 +10,8 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 
 ## Limitations
 
-All `GridMap` tile sizes in its `MeshLibrary` have to be the same size.
-Hexagon tiles not supported.
+- All `GridMap` tile sizes in its `MeshLibrary` have to be the same size.
+- Hexagon tiles not supported.
 
 ## How to install as a plugin
 
@@ -24,6 +24,8 @@ Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
 <img src="https://github.com/user-attachments/assets/49a4f814-c12c-4a75-8be5-d0e9168470f0" width="407" height="247">
 
 ## Plugin's inspector changes
+
+<img src="https://github.com/user-attachments/assets/f0e5eac8-e7bf-44b5-9280-df13faa6b7b5" width="172.5" height="222.5">
 
 ### Path Cell Size
 
@@ -39,7 +41,11 @@ The reason behind this is beyond the scope of this plugin's documentation.
 
 Also, as previously documented in the Limitations section, all your tiles have to be the same size.
 
-<img src="https://github.com/user-attachments/assets/f0e5eac8-e7bf-44b5-9280-df13faa6b7b5" width="172.5" height="222.5">
+### Walkable Items Array
+
+This is an array of item_ids (from your GridMap's MeshLibrary) that you want to be walkable, which means that take part in pathfinding.
+
+You do not have to edit this field directly, as the new Dock (described below) will allow you to add item_ids visually.
 
 ## Custom dock
 
