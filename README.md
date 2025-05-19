@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/698771ce-eaa8-47ee-b058-78808bdd1a59" width="580" height="270">
 
-An extended version of Godot's 1GridMap1 node that adds A* pathfinding support and in editor visual pathfinding debugging.
+An extended version of Godot's `GridMap` node that adds A* pathfinding support and in editor visual pathfinding debugging.
 
 Now implemented as a plugin.
 
