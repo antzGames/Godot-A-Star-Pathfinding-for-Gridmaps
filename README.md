@@ -8,6 +8,10 @@ Now implemented as a plugin.
 
 This solution is great for 3D Dungeon Crawler games where you need to do pathfinding in discrete amounts in a grid pattern.
 
+## Limitations
+
+All GridMap tile sizes in its MeshLibrary have to be the same size.
+
 ## How to install as a plugin
 
 Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
@@ -19,6 +23,20 @@ Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
 <img src="https://github.com/user-attachments/assets/49a4f814-c12c-4a75-8be5-d0e9168470f0" width="407" height="247">
 
 ## Plugin's inspector changes
+
+### Path Cell Size
+
+Not to be confused with `GridMap.cell_size`.  So because the mesh cell size of KayKit and Kenney 3D tile asset packs may differ, and even
+within asset packs they may have different mesh sizes (like small, medium, large versions of tiles) you have to be very careful in 
+setting the GridMap `cell_size` and this plugin's `path_cell_size`.
+
+Finding out the correct `path_cell_size` and GridMap `cell_size` might take some investigation.  But once figured out you do not have to worry about it again.
+
+The best advice I can give you is that when drawing cells in your GridMap, make sure when you draw the tiles, they do not overlap.  This will result in you skipping a grid tile.  This means you will need to adjust the `path_cell_size` to value higher than 1, and probably 2.
+
+ The reason behind this is beyond the scope of this plugin's documentation.  
+
+Also, as previously documented in the Limitations section, all your tiles have to be the same size.
 
 <img src="https://github.com/user-attachments/assets/f0e5eac8-e7bf-44b5-9280-df13faa6b7b5" width="172.5" height="222.5">
 
