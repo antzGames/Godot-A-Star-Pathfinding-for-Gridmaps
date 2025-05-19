@@ -6,7 +6,13 @@ var has_selection: bool = false
 var last_single_cell_selected: Vector3i
 var dock
 
+func _ready() -> void:
+	ResourceSaver.save(preload("res://addons/grid_map_pathfinding/grid_map_pathfinding.gd"))
+
 func _enter_tree() -> void:
+	# New custom node
+	add_custom_type("GridMapPathFinding", "GridMap", preload("res://addons/grid_map_pathfinding/grid_map_pathfinding.gd"), preload("res://addons/grid_map_pathfinding/GridMap.svg"))
+
 	# Dock
 	var root = get_editor_interface().get_resource_filesystem().get_node("/root")
 	gme = root.find_children("", "GridMapEditorPlugin", true, false)[0]
@@ -15,9 +21,6 @@ func _enter_tree() -> void:
 	dock.find_child("AddStart").pressed.connect(do_start_cell_button)
 	dock.find_child("AddEnd").pressed.connect(do_end_cell_button)
 	dock.find_child("AddItemID").pressed.connect(do_add_item_id)
-
-	# New custom node
-	add_custom_type("GridMapPathFinding", "GridMap", preload("res://addons/grid_map_pathfinding/grid_map_pathfinding.gd"), preload("res://addons/grid_map_pathfinding/GridMap.svg"))
 
 func _exit_tree():
 	# Remove the dock.
