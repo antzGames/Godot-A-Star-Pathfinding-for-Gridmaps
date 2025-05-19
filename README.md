@@ -11,6 +11,7 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 ## Limitations
 
 All `GridMap` tile sizes in its `MeshLibrary` have to be the same size.
+Hexagon tiles not supported.
 
 ## How to install as a plugin
 
@@ -32,9 +33,9 @@ setting the GridMap `cell_size` and this plugin's `path_cell_size`.
 
 Finding out the correct `path_cell_size` and GridMap `cell_size` might take some investigation.  But once figured out you do not have to worry about it again.
 
-The best advice I can give you is that when drawing cells in your GridMap, make sure when you draw the tiles, they do not overlap.  This will result in you skipping a grid tile.  This means you will need to adjust the `path_cell_size` to value higher than 1, and probably 2.
+The best advice I can give you is when drawing cells in your GridMap, make sure they do not overlap.  This will result in you skipping a grid tile.  This means you will need to adjust the `path_cell_size` to value higher than 1.
 
- The reason behind this is beyond the scope of this plugin's documentation.  
+The reason behind this is beyond the scope of this plugin's documentation.  
 
 Also, as previously documented in the Limitations section, all your tiles have to be the same size.
 
