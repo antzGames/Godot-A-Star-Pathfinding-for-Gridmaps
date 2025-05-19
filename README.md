@@ -14,7 +14,7 @@ Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
 
 ![plugin](https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3)
 
-## Using the new GridMapPathFinding node
+## Using the new `GridMapPathFinding` node
 
 ![new_node](https://github.com/user-attachments/assets/49a4f814-c12c-4a75-8be5-d0e9168470f0)
 
