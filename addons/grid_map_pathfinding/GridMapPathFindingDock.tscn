@@ -1,0 +1,111 @@
+[gd_scene load_steps=2 format=3 uid="uid://engjhs6k80id"]
+
+[ext_resource type="Script" uid="uid://d0r5f5vgu1qrr" path="res://addons/grid_map_pathfinding/grid_map_pathfinding_dock.gd" id="1_f6oxr"]
+
+[node name="GridMapPathFindingDock" type="Control"]
+clip_contents = true
+custom_minimum_size = Vector2(260, 390)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_f6oxr")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+tooltip_text = "You can only select one grid tile at a time.
+Area selections ignored."
+mouse_filter = 1
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 20
+text = "Selected Cell"
+horizontal_alignment = 1
+
+[node name="MainContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer"]
+custom_minimum_size = Vector2(125, 0)
+layout_mode = 2
+text = "Mesh Name:"
+horizontal_alignment = 2
+
+[node name="ItemName" type="Label" parent="VBoxContainer/MainContainer"]
+layout_mode = 2
+
+[node name="MainContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer2"]
+custom_minimum_size = Vector2(125, 0)
+layout_mode = 2
+text = "Item ID:"
+horizontal_alignment = 2
+
+[node name="ItemID" type="Label" parent="VBoxContainer/MainContainer2"]
+layout_mode = 2
+
+[node name="MeshPreview" type="TextureRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Info" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "This Item ID is in Walkable Items"
+horizontal_alignment = 1
+
+[node name="AddItemID" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Add Item ID to Walkable Items"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(125, 0)
+layout_mode = 2
+text = "Cell Position:"
+horizontal_alignment = 2
+
+[node name="CellPos" type="Label" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(125, 0)
+layout_mode = 2
+text = "Local Position:"
+horizontal_alignment = 2
+
+[node name="LocalPos" type="Label" parent="VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="AddStart" type="Button" parent="VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+text = "Add to Start Cell"
+
+[node name="AddEnd" type="Button" parent="VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+text = "Add to End Cell"
