@@ -10,7 +10,7 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 
 ## Limitations
 
-All GridMap tile sizes in its MeshLibrary have to be the same size.
+All GridMap tile sizes in its `MeshLibrary` have to be the same size.
 
 ## How to install as a plugin
 
