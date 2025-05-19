@@ -10,18 +10,13 @@ This solution is great for 3D Dungeon Crawler games where you need to do pathfin
 
 ## How to install as a plugin
 
+Add `grid_map_pathfinding` folder to your `addons` directory as shown below:
+
 ![plugin](https://github.com/user-attachments/assets/1a947054-8eea-46b6-9985-6f3170a0c0a3)
 
-Add `grid_map_pathfinding` folder to your `addons` directory.
-
-## Plugin's inspector changes and new custom dock
+## Plugin's inspector changes
 
 ![New_inspect](https://github.com/user-attachments/assets/f0e5eac8-e7bf-44b5-9280-df13faa6b7b5)
-![all_inspect](https://github.com/user-attachments/assets/4dd871a6-7210-4539-8bd8-af5797875c31)
-
-## Optional in editor pathfinding debug
-
-![editor_debug](https://github.com/user-attachments/assets/178e1b13-6d5f-4aae-89d3-c5fc1e794f22)
 
 ## Custom dock
 
@@ -37,8 +32,9 @@ When the selected cell does not have any assigned tile, then you will see this:
 
 ![no_selected](https://github.com/user-attachments/assets/ad212ab6-8c02-45be-b08c-890fd9a33ad1)
 
+## Optional in editor pathfinding debug
 
-
+![editor_debug](https://github.com/user-attachments/assets/178e1b13-6d5f-4aae-89d3-c5fc1e794f22)
 
 ## GridMap location to world space and vice versa
 
