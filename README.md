@@ -49,6 +49,8 @@ You do not have to edit this field directly, as the new Dock (described below) w
 
 ## Custom dock
 
+When GridMap is selection mode (arrow icon), then a single selected grid cell will update the custom dock called `GridMapPathFindingDock`.
+
 ### Scenario 1: Selected cell **NOT** in the `walkable_items` array
 When the selected cell in the grid map is **NOT** in the `walkable_items` array, which is going to be the case in a new project, you will see this in the dock:
 
