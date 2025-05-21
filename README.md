@@ -6,6 +6,10 @@ An extended version of Godot's `GridMap` node that adds A* pathfinding support a
 
 Now implemented as a plugin.
 
+The old tuortial video is still here: https://youtu.be/t4-R5tmFakw
+
+I may create an updated video.
+
 This solution is great for 3D Dungeon Crawler games where you need to do pathfinding in discrete amounts in a grid pattern.
 
 ## Limitations
