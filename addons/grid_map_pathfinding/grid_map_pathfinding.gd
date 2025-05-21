@@ -112,8 +112,8 @@ func do_debug_path(start_pos, end_pos):
 		DebugDraw2D.set_text("3. Path length: ", "No path found")
 	else:
 		DebugDraw2D.set_text("3. Path length: ", path.size())
-	DebugDraw2D.set_text("4. Start Grid Location / Start World Location: ", str(start_pos, " / ", map_to_local(start_pos)), 0, Color.GREEN)
-	DebugDraw2D.set_text("5. End Grid Location / End World Location: ", str(end_pos, " / ", map_to_local(end_pos)), 0, Color.RED)
+	DebugDraw2D.set_text("4. Start Grid position / Start World position: ", str(start_pos, " / ", map_to_local(start_pos)), 0, Color.GREEN)
+	DebugDraw2D.set_text("5. End Grid position / End World position: ", str(end_pos, " / ", map_to_local(end_pos)), 0, Color.RED)
 	
 	var i: int = 0
 	points.resize(path.size())

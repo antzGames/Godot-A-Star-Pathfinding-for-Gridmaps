@@ -27,8 +27,8 @@ data = {
 }
 script = ExtResource("3_1bvp3")
 walkable_items = Array[int]([0])
-debug_start_cell = Vector3i(-2, 0, 20)
-debug_end_cell = Vector3i(5, 0, 8)
+debug_start_cell = Vector3i(-2, 0, 13)
+debug_end_cell = Vector3i(7, 0, 2)
 metadata/_custom_type_script = "uid://ubfk2a80dhfp"
 metadata/_editor_floor_ = Vector3(0, 0, 0)
 

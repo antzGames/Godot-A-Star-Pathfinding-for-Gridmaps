@@ -80,7 +80,7 @@ layout_mode = 2
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer2"]
 custom_minimum_size = Vector2(125, 0)
 layout_mode = 2
-text = "Cell Position:"
+text = "Grid Position:"
 horizontal_alignment = 2
 
 [node name="CellPos" type="Label" parent="VBoxContainer/HBoxContainer2"]
@@ -104,8 +104,10 @@ alignment = 1
 
 [node name="AddStart" type="Button" parent="VBoxContainer/HBoxContainer4"]
 layout_mode = 2
-text = "Add to Start Cell"
+theme_override_font_sizes/font_size = 12
+text = "Assign to Start Cell"
 
 [node name="AddEnd" type="Button" parent="VBoxContainer/HBoxContainer4"]
 layout_mode = 2
-text = "Add to End Cell"
+theme_override_font_sizes/font_size = 12
+text = "Assign to End Cell"
